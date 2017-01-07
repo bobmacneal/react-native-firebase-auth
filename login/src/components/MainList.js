@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
-import { CardSection } from './common'
+import { Text } from 'react-native';
+import { Card, CardSection } from './common';
 
 class MainList extends Component {
   render() {
     return (
-      <View>
+      <Card>
         <CardSection>
           <Text>Item 1</Text>
         </CardSection>
@@ -15,7 +15,7 @@ class MainList extends Component {
         <CardSection>
           <Text>Item 2</Text>
         </CardSection>
-      </View>
+      </Card>
     );
   }
 }
