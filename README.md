@@ -25,7 +25,7 @@ If you wise to modify this code with your own firebase instance, do the followin
   
   `  apiKey: "AIzaSyD24bKdgAwkzmiRE5EqSk69dU385crbS7w",`
   
-  `  authDomain: "manager-cf894.firebaseapp.com",`
+  >`  authDomain: "manager-cf894.firebaseapp.com",`
   
   `  databaseURL: "https://manager-cf894.firebaseio.com",`
   
