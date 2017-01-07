@@ -1,53 +1,13 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+This is example login code using react-native, redux, and firebase auth.
+The code is adapted from that presented by Stephen Grider in his udemy course:
+The Complete React Native and Redux Course
+https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/overview
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+ import {
+   AppRegistry
+ } from 'react-native';
+ import App from './src/App';
 
-export default class login extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
-
-AppRegistry.registerComponent('login', () => login);
+ AppRegistry.registerComponent('login', () => App);
