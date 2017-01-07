@@ -2,7 +2,8 @@
 
 This is sample login code that uses react-native, redux, and firebase authentication. It is adapted from [Stephen Grider's](https://github.com/StephenGrider) outstanding Udemy course *[The Complete React Native and Redux Course](https://www.udemy.com/the-complete-react-native-and-redux-course/learn/v4/overview")*
 
->![Login view](https://raw.githubusercontent.com/bobmacneal/react-native-firebase-auth/master/login/screenshot/Login.png "Login view")
+
+![Login view](https://raw.githubusercontent.com/bobmacneal/react-native-firebase-auth/master/login/screenshot/Login.png "Login view")
 
 
 ## Run in iOS Simulator
@@ -13,7 +14,7 @@ This is sample login code that uses react-native, redux, and firebase authentica
 4. `react-native run-ios` should bring up the app in the iOS simulator.
 5. Once the app loads, login with test@gmail.com and pwd123! OR create a new account with any email and password.
 
-## Firebase Setup
+## Optional Firebase Setup
 
 If you want to adapt this code to your purposes, please create your own firebase project. Set up your project as follows:
 
