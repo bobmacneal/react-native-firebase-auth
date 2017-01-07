@@ -1,0 +1,7 @@
+{
+    "extends": "rallycoding",
+    "installedESLint": true,
+    "rules": {
+      "arrow-body-style": 0
+    }
+}
