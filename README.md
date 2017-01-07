@@ -5,5 +5,7 @@ This is sample login code that uses react-native, redux, and firebase authentica
 >![Login view](https://raw.githubusercontent.com/bobmacneal/react-native-firebase-auth/master/login/screenshot/Login.png "Login view")
 
 
-## Documentation
+## Run in iOS Simulator
+
+1. `git clone https://github.com/bobmacneal/react-native-firebase-auth.git`
 
