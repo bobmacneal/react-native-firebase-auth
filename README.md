@@ -15,11 +15,11 @@ This is sample login code that uses react-native, redux, and firebase authentica
 
 ## Firebase Setup
 
-If you wise to modify this code with your own firebase instance, do the following:
+If you want to adapt this code to your purposes, please create your own firebase project. Set up your project as follows:
 
-1. Go to firebase console https://console.firebase.google.com/, set up new project. 
+1. On the firebase console https://console.firebase.google.com/, set up new project. 
 2. Click Authentication from navigation drawer, and click set up sign-in method. Enable the Email/Password sign-in provider.
-3. In upper top right, click web setup and copy the var config part (not the script tags) then paste into src/App.js. For example:
+3. In upper top right, click web setup and copy the config part (not the script tags). Paste your instance config into src/App.js. For example:
 
   `var config = {`
   
