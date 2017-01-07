@@ -22,12 +22,19 @@ If you wise to modify this code with your own firebase instance, do the followin
 3. In upper top right, click web setup and copy the var config part (not the script tags) then paste into src/App.js. For example:
 
   `var config = {`
+  
   `  apiKey: "AIzaSyD24bKdgAwkzmiRE5EqSk69dU385crbS7w",`
+  
   `  authDomain: "manager-cf894.firebaseapp.com",`
+  
   `  databaseURL: "https://manager-cf894.firebaseio.com",`
+  
   `  storageBucket: "manager-cf894.appspot.com",`
+  
   `  messagingSenderId: "568410982736"`
+  
   `};`
+  
   `firebase.initializeApp(config);`
 
 
